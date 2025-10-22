@@ -7,6 +7,20 @@ nav: true
 nav_order: 7
 ---
 
+<style>
+/* Keep styles inline so it works in GitHub Pages without extra files */
+.hf-embed {
+  width: 100%;
+  max-width: 1100px;  /* optional cap to match your content width */
+  margin: 1rem 0 2.5rem;
+}
+.hf-embed iframe {
+  width: 100%;
+  aspect-ratio: 16 / 10;  /* tweak to fit your Space layout */
+  border: 0;
+}
+</style>
+
 #### **XIAO GROUP CODES**:
 
 See our Github site for relevant group codes:
@@ -18,7 +32,7 @@ See our Github site for relevant group codes:
 <div class="hf-embed">
   <iframe
     title="MatterGPT Demo (Hugging Face Space)"
-    src="https://xiaohang07-MatterGPT_CPU.hf.space"
+    src="https://xiaohang07-MatterGPT-CPU.hf.space"
     loading="lazy"
     allow="clipboard-write; microphone; camera; fullscreen"></iframe>
 </div>
